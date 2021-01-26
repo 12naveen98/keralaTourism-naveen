@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url('../Images/District/District1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    
+    margin-top:2%;
+}
+
+.media li{
+    display: inline;
+    margin: 6px;
+    font-size: 30px;
+    
+    /* border: 1px solid green; */
+    
+}
+#heading {
+    margin-top: 3%;
+    margin-left: 2cm;
+}
+
+.carousel{
+    /* float: right; */
+    height: 100%;
+    width: 100%;
+    margin-right: 3cm;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+
+}
+
+.row .text{
+    /* margin: 3cm;  */
+    /* border: 1px solid red;
+    margin-right: 1cm;  */
+    margin-left: 1cm;  
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    font-weight: bold;
+    font-style: italic;
+}
+

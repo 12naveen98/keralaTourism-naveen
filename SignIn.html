@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/SignIn.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="./Images/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css">
+    
+    <title>SignIn</title>
+</head>
+<body>
+    
+    <!-----nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <img id="logo" src="./Images/logo.png" style="width:300px;height:100px;">
+        <div class="container-fluid">
+        
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link "  href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="./Login.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="./SignIn.html">Sign In</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link"  href="./District.html">Districts</a>
+                </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>                
+              </li> -->            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-----/nav bar----->
+
+    <!---form-->
+    <div class="mainForm">
+        <form class="row xl-4" id="formOne" action="./Login.html" onsubmit="return basicValidation();" onkeyup="return password();">
+          <marquee id="marq" direction = "right"><b>Please enter all the information marked *</b></marquee>
+          <div class="col-md-4">
+            <label for="firstname" class="form-label" id="nameLabel">First Name*</label>
+            <input type="text"  class="form-control" aria-label="First name" id="firstname">
+          </div>
+          <div class="col-md-3">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" aria-label="Last name" id="lastname">
+          </div>
+          <div class="col-md-4">
+            <label for="inputEmail4" class="form-label" id="mailLabel">Email*</label>
+            <input type="text" onkeyup="return email();" class="form-control" id="inputEmail4" placeholder="Example@gmail.com">
+          </div>
+          <div class="col-md-4">
+            <label for="inputPassword4" class="form-label" id="pwdlabel">Password*</label>
+            <input type="password"   class="form-control" id="inputPassword4" placeholder="Must contain 8-12 characters">
+          </div>
+          <div class="col-md-4">
+            <label for="inputPassword4" class="form-label" id="repwdLabel">Re-enter Password*</label>
+            <input type="password"  class="form-control" id="inputPassword5">
+          </div>
+          <div class="col-md-4">
+            <label for="inputPhone" class="form-label" id="phonelabel">Phone Number*</label>
+            <input type="text"  class="form-control" id="inputPhone">
+          </div>
+          <div class="col-5">
+            <label for="inputAddress" class="form-label" id="addLabel">Address*</label>
+            <input type="text"  class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-5">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-3">
+            <label for="inputCity" class="form-label" id="citylabel">City*</label>
+            <input type="text"  class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-3">
+            <label for="inputState" class="form-label" id="statelabel">State</label> 
+            <select id="inputState"  class="form-select">
+              <option selected>Choose State</option>
+              <option>Kasargod</option>
+              <option>Kannur</option>
+              <option>Wayanad</option>
+              <option>Kozhikode</option>
+              <option>Malapuram</option>
+              <option>Palakkad</option>
+              <option>Thrissur</option>
+              <option>Ernakulam</option>
+              <option>Idukki</option>
+              <option>Kottayam</option>
+              <option>Alapuzha</option>
+              <option>Pathanamthitta</option>
+              <option>Kollam</option>
+              <option>Thiruvananthapuram</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="inputZip" class="form-label" id="ziplabel">Zip*</label>
+            <input type="text"  class="form-control" id="inputZip" placeholder="zip">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary" style="margin-left:40%;margin-top: 3%;">Sign in</button>
+          </div>
+        </form>
+  </div>
+<!---form-->
+
+    <!---footer-->
+<footer>
+      <div class="media">
+        <ul>
+            <li><i class="fab fa-facebook" style="color: rgb(48, 64, 204);"></i></li>
+            <li><i class="fab fa-twitter" style="color:rgb(0, 136, 248);"></i></li>
+            <li><i class="fab fa-google-plus" style="color:yellow"></i></li>
+            <li><i class="fab fa-whatsapp" style="color:green"></i></li>
+            <li><i class="fab fa-youtube" style="color:red"></i></i></li>
+            
+        </ul>        
+      </div>
+</footer>
+    <!---/footer-->
+
+    <script src="./JS/form.js"></script>
+</body>
+</html>

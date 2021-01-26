@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url('../Images/singin2.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+} 
+
+.row .login{
+    margin-top: 3%;
+    /* border: 1px solid red; */
+}
+
+
+
+footer{
+    
+    margin-top:20%;
+}
+
+.media li{
+    display: inline;
+    margin: 6px;
+    font-size: 30px;
+    /* border: 1px solid green; */
+    
+}
+
+/* .carousel{
+    margin-top: 2%;
+    
+} */
+
+#introVideo{
+    margin-top: 2cm;
+    margin-right: 1cm;
+    margin-left: 15px;
+}

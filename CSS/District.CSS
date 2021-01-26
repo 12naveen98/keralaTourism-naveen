@@ -1,0 +1,248 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url('../Images/District/District1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    
+    margin-top:2cm;
+    margin-left: 45%;
+}
+
+.media li{
+    display: inline;
+    margin: 6px;
+    font-size: 30px;
+    /* border: 1px solid green; */
+    
+}
+.centerImg li  {
+    display:inline;
+}
+
+#kasargodImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#kannurImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#wayanadImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#KozhikodeImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#malapuramImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+.centerTxt li  {
+    display:inline-block; 
+}
+
+#kasargodTxt{
+    margin-left: 2cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+    
+}
+
+#kannurTxt{
+    margin-left: 5cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#wayanadTxt{
+    margin-left: 4cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#kozhikodeTxt{
+    margin-left: 5cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#malapuramTxt{
+    margin-left: 3.5cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+
+.centerImgTwo li  {
+    display:inline;
+}
+
+
+#palakadImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#thrissurImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#ernakulamImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#idukkiImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#kottayamImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+.centerTxtTwo li  {
+    display:inline-block; 
+}
+
+#palakadTxt{
+    margin-left: 2cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#thrissurTxt{
+    margin-left: 5cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#ernakulamTxt{
+    margin-left: 4cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#idukkiTxt{
+    margin-left: 5cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#kottayamTxt{
+    margin-left: 4cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+.centerImgThree li  {
+    display:inline;
+}
+
+
+#alapuzhaImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#pathanamthitaImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#kollamImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+#tvmImg {
+    margin:2%;
+    /* display: inline-block; */
+    height: 4cm;
+    width: 5cm; 
+    /* border: 1.5px solid blueviolet;   */
+} 
+
+.centerTxtThree li  {
+    display:inline-block; 
+}
+
+#alapuzhaTxt{
+    margin-left: 2cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#pathanamthitaTxt{
+    margin-left: 4cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#kollamTxt{
+    margin-left: 4cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
+
+#tvmTxt{
+    margin-left: 3.2cm;
+    /* border: 1.5px solid blueviolet; */
+    margin-top: 1px;
+}
